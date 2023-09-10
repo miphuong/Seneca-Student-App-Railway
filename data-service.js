@@ -160,7 +160,7 @@ require('dotenv').config();
 //     }
 // });
 
-const sequelize = new Sequelize('postgresql://postgres:93NKkwlKhJRjS9sVMl1T@containers-us-west-147.railway.app:5668/railway');
+const sequelize = new Sequelize(process.env.DATABASE_URL);
 
 
 
