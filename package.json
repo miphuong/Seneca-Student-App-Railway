@@ -1,0 +1,29 @@
+{
+  "name": "seneca-student-app-railway",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miphuong/seneca-student-app-railway.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miphuong/seneca-student-app-railway/issues"
+  },
+  "homepage": "https://github.com/miphuong/seneca-student-app-railway#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "client-sessions": "^0.8.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jade": "^1.11.0",
+    "pg": "^8.11.3",
+    "sequelize": "^6.33.0"
+  }
+}
